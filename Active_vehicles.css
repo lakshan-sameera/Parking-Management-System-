@@ -1,0 +1,68 @@
+/* active_vehicles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #2c3e50, #3498db); /* Gradient background */
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    background-color: #ffffffc4;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.71);
+    padding: 20px;
+    width: 450px;
+    max-height: 500px;
+    overflow-y: auto; /* Add scroll for overflow */
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+    font-size: 33px;
+}
+
+p {
+    margin: 10px 0;
+    font-weight: lighter;
+    padding: 2px;
+    color: #120606;
+}
+
+hr {
+    border: 0.5px solid #120606;
+}
+
+.no-results {
+    text-align: center;
+    color: #888;
+}
+
+.back-button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.back-button:hover {
+    background-color: #45a049;
+}

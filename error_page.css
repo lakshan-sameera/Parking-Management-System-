@@ -1,0 +1,61 @@
+/* error_page.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #003366, #66ccff);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background: #ececec;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 400px;
+}
+
+h2 {
+    color: #003366;
+}
+
+.error-icon {
+    margin: 20px 0;
+}
+
+.error-icon img {
+    width: 80px; /* Adjust the size as needed */
+}
+
+p {
+    margin: 10px 0;
+    color: #003366;
+}
+
+.back-button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.back-button:hover {
+    opacity: 0.8;
+}
+
+@media (max-width: 500px) {
+    .container {
+        width: 90%;
+    }
+}

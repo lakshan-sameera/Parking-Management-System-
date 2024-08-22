@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #2c3e50, #3498db); /* Gradient background */
+    margin: 0;
+    padding: 0;
+    color: #fff; /* Set text color to white for better readability on the gradient background */
+}
+
+.container {
+    margin: 50px auto;
+    padding: 30px;
+    height: 450px;
+    background-color: rgba(255, 255, 255, 0.038); /* Semi-transparent white background */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    height: 450px;
+    width: 450px;
+}
+
+h2 {
+    color:rgb(255, 225, 0);
+    text-align: center;
+    font-weight: bolder;
+    font-size: 33px;
+}
+
+.button-container {
+
+    flex-direction: column;
+    align-items: center;
+    height: 10px;
+    width: 300px;
+    margin-left: 80px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+button {
+    background-color: rgba(7, 6, 6, 0.5); /* Semi-transparent white button */
+    color: rgb(255, 225, 0); /* Dark blue text */
+    border: none;
+    padding: 15px 30px; /* Adjusted padding for the same size */
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px; /* Added border radius for a slightly rounded look */
+    transition: background-color 0.3s;
+    width: 100%; /* Ensures all buttons have the same width */
+    box-sizing: border-box; /* Includes padding and border in the total width */
+}
+
+button:hover {
+    background-color: rgba(7, 6, 6, 0.922);; /* Lighter semi-transparent white on hover */
+}

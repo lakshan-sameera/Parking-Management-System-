@@ -1,0 +1,29 @@
+<!-- index.php -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parking Management System</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Smart Parking</h2>
+        <form action="process.php" method="post">
+            <label for="idNumber">ID Number:</label>
+            <input type="text" id="idNumber" name="idNumber" required>
+
+            <label for="vehicleNumber">Vehicle Number:</label>
+            <input type="text" id="vehicleNumber" name="vehicleNumber" required>
+
+            <button type="submit" name="enter" class="enter">Enter</button>
+            <button type="submit" name="leave" class="leave">Leaving</button>
+        </form>
+    </div>
+</body>
+</html>
+
+
+
